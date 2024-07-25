@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <header class="header">
+        <div class="center">
+        <div class="header-box">
+          <div class="header-section"> <a class="header-link" href="#">Друзья</a> </div>
+          <div class="header-section"> <a class="header-link" href="#">Главная страница</a> </div>
+          <div class="header-section"> <a class="header-link" href="#"> Чат</a> </div>
+          <div class="header-section"> <a class="header-link" href="#">Коментарии</a> </div> 
+        </div>
+      </div>
+    </header>
+    <section class="comments-section">
+        <div class="center">
+            <div class="comments-section-center">
+                <ul class=" comments-list" >
+                    <li class="comments">
+                        <div class="comments-box-left">
+                            <h1 class="comments-user-name"> Cоня</h1>
+                            <textarea> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero? Hic provident, placeat perferendis excepturi possimus eligendi vitae molestiae aliquid neque optio beatae tempora sapiente, qui eveniet, iste praesentium iusto?</textarea>
+                        </div>
+                         <div class="comment-box-right">
+                          <div class="like-box">
+                            <img class="comments-user-like" src="./img/like.png" alt="" >
+                            <h2 class="comments-user-like-number">0</h2>
+                            <button type="button"  class="comment-button-delte">Удалить</button>
+                          </div>
+                          <div class="comment-data-box">
+                              <p class="comments-user-data">25.06.2024</p>
+                              <p class="comments-user-time">13:14</p>
+                          </div>
+                       </div>
+                       </li>
+                    <li class="comments">
+                        <div class="comments-box-left">
+                            <h1 class="comments-user-name"> Cоня</h1>
+                            <textarea> выпвапваиаа</textarea>
+                        </div>
+                         <div class="comment-box-right">
+                           <div class="like-box">
+                             <img class="comments-user-like" src="./img/like.png" alt="" >
+                             <h2 class="comments-user-like-number">0</h2>
+                             <button type="button" class="comment-button-delte">Удалить</button>
+                           </div>
+                           <div class="comment-data-box">
+                              <p class="comments-user-data">25.06.2024</p>
+                              <p class="comments-user-time">13:14</p>
+                           </div>
+                         </div>
+                     </li> 
+                 </ul>
+                 <div class="comment-create">
+                    <div class="comments-create-info">
+                       <input class="create-name" type="text" placeholder="введите имя">
+                       <textarea  class="create-text"> </textarea>
+                    </div>
+                    <div class="comment-button-box">
+                      <button type="button" class="comments-button-send" type="button">Отправить</button>
+                    </div>
+                 </div>
+            </div>
+    </div>
+    </section>
+    <script src="comments.js"></script>
+</body>
+</html> 
