@@ -1,0 +1,22 @@
+{
+  "name": "sitecomment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "comments.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sverguninna/siteComment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sverguninna/siteComment/issues"
+  },
+  "homepage": "https://github.com/sverguninna/siteComment#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
