@@ -2,13 +2,14 @@ const buttonGetComment = document.querySelector('.comments-button-send')
 const inputName =document.querySelector('.create-name')
 const inputText =document.querySelector('.create-text')
 const  commentsList =document.querySelector('.comments-list')
+
 let userComments = [
     {
         userName: 'Соня',
         userComment: 'не важно что',
         userNumLike:0,
-        date: getDateNow(), 
-        time: getTimeNow(),
+        date: '20:7:2024', 
+        time: '1:00',
         id: 0,
         like: false,
         likeİmg:'./img/passive2.png'
@@ -17,8 +18,8 @@ let userComments = [
         userName: 'Nika',
         userComment: 'hello',
         userNumLike:0,
-        date: getDateNow(), 
-        time: getTimeNow(),
+        date: '21:7:2024', 
+        time: '11:30',
         id: 1,
         like: false,
         likeİmg:'./img/passive2.png'
@@ -65,7 +66,7 @@ function deleteComment(e) {
 }
 function getDateNow(params) {
     let date = new Date()
-    return `${date.getDate()}:${date.getMonth()}:${date.getFullYear()}`
+    return `${date.getDate()}:${date.getMonth() + 1}:${date.getFullYear()}`
 }
 function getTimeNow(){
     let date = new Date()

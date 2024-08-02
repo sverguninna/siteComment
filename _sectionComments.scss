@@ -1,0 +1,194 @@
+
+.comments-section {
+    width: 100%;
+    background-color: $backgrounLighter;
+    height: 800px;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 60px;
+  }
+  .comments-section-center{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+  .comments-list {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      padding: 40px;
+  }
+  .comments {
+      width: 750px;
+      min-height: 200px;
+      background-color: $backgroundDarker;
+      display: flex;
+      justify-content: space-between;
+      padding: 12px;
+      border-radius: 30px;
+      box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 1);
+  }
+  .comments-box-left {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 12px;
+      width: 600px;
+  }
+  .comment-box-right {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .like-box{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 6px;
+  }
+  .comments-user-name {
+      font-size: 30px;
+      font-family: cursive;
+      color: $colorName;
+  }
+  .comments-user-text {
+      font-size: 20px;
+      font-family: system-ui;
+      width: 600px;
+      height: 100%;
+      color: $colorText;
+      font-weight: 500;
+      background-color: $backgroundDarker;
+      max-width: 60ch;
+      // overflow: auto;
+      // -ms-overflow-style: none;
+      //   scrollbar-width: none;
+      
+  }
+  .comment-data-box{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      gap: 7px;
+  }
+  
+  .comments-user-like {
+      width: 40px;
+      height: 37px;
+  }
+  .comments-user-like:hover{
+       
+     transform: scale(1.10);
+     transition: .3s;
+  }
+  .comments-user-like-number{
+      font-size: 25px;
+  }
+  .comment-button-delte{
+      color: #ffa685;
+      width: 100px;
+      height: 30px;
+      font-size: 20px;
+      border: solid;
+      border-radius: 10px;
+      background-color: #270a00;
+      font-family: cursive;
+      line-height: 7px;
+      &:hover{
+        box-shadow: 0px 0px 10px 1px #f39595;
+        cursor: pointer;
+    }
+  }
+ 
+  .comments-user-data {
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 500;
+  }
+  
+  .comments-user-time {
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 500;
+  }
+  .comment-create {
+      width: 700px;
+      height: 250px;
+      background-color: #772515;
+      display: flex;
+      justify-content: space-between;
+      padding: 12px;
+      flex-direction: column;
+      border: solid 2px black;
+      border-radius: 15px;
+  }
+  .comments-create-info {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap:12px;
+  }
+  .create-name {
+      background-color:  #772515;
+      border: unset;
+      border-bottom: solid 2px black;
+      width: 300px;
+      height: 40px;
+      font-size: 25px;
+      color:$colorName ;
+  }
+  .create-text {
+      background-color: #772515;
+      border: solid 2px black;
+      font-size: 25px;
+      width: 500px;
+      text-align: unset;
+      height: 100px;
+      padding-bottom: 50px;
+      color: #ffa685;
+      overflow: auto;
+      padding-left: 12px;
+      padding-right: 12px;
+      scrollbar-width: thin;          /* "auto" or "thin" */
+      scrollbar-color: black #ffa685; 
+      resize: none;
+  }
+  
+  .comments-button-send {
+      width: 150px;
+      height: 60px;
+      background-color:#ffa685 ;
+      border: solid 2px black;
+      font-size: 22px;
+      border-radius: 10px;
+      font-family: cursive;
+      transition: .4s;
+      &:hover{
+        box-shadow: 0px 0px 10px 1px #f39595;
+        transform: scale(1.04);
+        transition: .4s;
+        cursor: pointer;
+    }
+     
+  }
+ 
+  .comment-button-box{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-start;
+  }

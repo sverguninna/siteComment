@@ -1,26 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .center {
-    max-width: 1400px;
+   max-width: 1400px;
    margin: 0 auto;
    height: 100%;
 }
 
 .header {
-    width: 100%;
+  width: 100%;
   background-color: $backgrounLighter;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
 }
 .header-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: 60px;
     background-color: $backgroundDarker;
     width: 100%;
-    height: 40px;
     border: solid, 2px black;
 }
 .header-section {
@@ -30,4 +34,11 @@
     font-size: 24px;
     text-decoration-line: none;
     color: white;
+    transition: 0.4s;
+    &:hover {
+        color: rgb(232, 181, 181);
+        text-decoration: underline ;
+        transition: 0.4s;
+    }
 }
+
