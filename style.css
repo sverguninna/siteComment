@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Cyrillic old";
+  src: url(/fonts/Cyrillic\ Old\ [Edited\ by\ me].otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -243,4 +247,49 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
+}
+
+.main-top {
+  width: 100%;
+  background-color: #BC6D4F;
+  height: 800px;
+  height: 100%;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+.cover {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(/img/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.avatar-name {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
 }/*# sourceMappingURL=style.css.map */
